@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Gluten&family=Poppins:ital@0;1&family=Rubik+Beastly&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #eee2bb;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 5% auto;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Gluten', cursive;
+}
+
+
+nav a {
+    margin: 43px;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik Beastly', cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+}
+
+aside {
+    background-color: #706b64;
+    border-radius: 3%;
+    color: white;
+    margin-left: 77%;
+    height: 800px;
+    font-size: 170%;
+    text-align: center;
+    margin-top: -50rem;
+}
+
+.asimg {
+    width: 50px;
+    height: 70px;
+}
+
+#san {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text {
+    width: 70%;
+    height: 600px;
+    display: inline-block;
+    margin-top: -5rem;
+    font-size: 150%;
+}
+
+
+#separateur {
+    width: 80%;
+    height: 3px;
+}
+ 
+.black {
+    color: white;
+    background-color: #181818cc;
+    position: relative;
+    bottom: 7rem;
+    border-radius: 10px;
+    width: 100%;
+    height: 5.3rem;
+    padding: 2%;
+}
+
+#septop {
+    width: 100%;
+    height: 3px;
+    margin: 1%;
+}
+
+.buttonred {
+    background: url(assets\img\fond_degraderouge.png) repeat-x;
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 40px;
+    margin: 0%;
+    font-size: 100%;
+    border-radius: 10px;
+    margin-left: 40rem;
+}
+
+#fleche-blanche {
+    width: 20px;
+    height: 20px;
+    margin: 0%;
+    margin-left: 1rem;
+}
+
+.fleche {
+    background: url(assets\img\flecheblanchedroid.png)
+}
+
+.foot {
+    width: 100%;
+    height: 250px;
+}
+
+.boite {
+    width: 33%;
+    height: 250px;
+    float: left;
+}
+
+.img {
+    border: 3px solid;
+}
+
+.blackfoot {
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+#sep-ico {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+}
